@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My tasks</string>
+    <string name="editTxt_hint">New task</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="after_tomorrow">The day after tomorrow</string>
+</resources>

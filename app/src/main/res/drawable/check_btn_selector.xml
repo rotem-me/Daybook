@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        >
+        <shape>
+            <solid
+                android:color="#FFF" />
+            <stroke
+                android:color="#969595"
+                android:width="1dp"/>
+            <corners
+                android:radius="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_clear_light_gray_24dp">
+
+    </item>
+</layer-list>
+    </item>
+
+    <item android:state_checked="true">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                >
+                <shape>
+                    <solid
+                        android:color="#FFF" />
+                    <stroke
+                        android:color="#969595"
+                        android:width="1dp"/>
+                    <corners
+                        android:radius="2dp"/>
+                </shape>
+            </item>
+            <item
+                android:drawable="@drawable/ic_check_black_24dp">
+
+            </item>
+        </layer-list>
+    </item>
+</selector>
+
